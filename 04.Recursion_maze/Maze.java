@@ -10,7 +10,7 @@ public class maze{
 		{0, 0, 0, 1, 0, 0, 0, 1},
 		{0, 1, 1, 1, 0, 1, 0, 0},
 	};
-    private static final int PATHWAY_COLOR = 0;	//white
+    private static final int PATHWAY_COLOR = 0;		//white
 	private static final int WALL_COLOR = 1;	//blue
 	private static final int BLOCKED_COLOR = 2;	//red, 방문했지만, 꽝인 부분
 	private static final int PATH_COLOR = 3;	//green, 방문했지만, 출구가 있을지 없을지 모르는 경우
